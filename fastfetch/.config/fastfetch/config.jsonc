@@ -1,0 +1,120 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+        "type": "auto",
+        "source": "~/.config/fastfetch/ascii/big_planet.txt",
+        //"source": "~/.config/fastfetch/images/giri.png",
+        //"height": 15,
+        //"width": 30,
+        "padding": {
+            "top": 2,
+            "left": 4,
+            "right": 8
+        }
+    },
+  "modules": [
+            "title",
+            "separator",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌─────────────────────────Hardware─────────────────────────┐"
+        },
+        {
+            "type": "host",
+            "key": " PC",
+            "keyColor": "green"
+        },
+        {
+            "type": "display",
+            "key": "│ ├ 󰍹 ",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ├ ",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "│ ├ 󰍛",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "│ ├ 󰍛",
+            "keyColor": "green"
+        },
+        {
+            "type": "disk",
+            "key": "│ ├ ",
+            "keyColor": "green"
+        },
+        {
+            "type": "swap",
+            "key": "└ └ ",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└──────────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌─────────────────────────Software─────────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": "󰣇 OS",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "│ ├ ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "bios",
+            "key": "│ ├ ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "wm",
+            "key": "└ └ ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└──────────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────────Others──────────────────────────┐"
+        },
+        {
+            "type": "battery",
+            "key": "  Battery ",
+            "keyColor": "magenta",
+        },
+        {
+            "type": "uptime",
+            "key": "  Uptime ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "datetime",
+            "key": "  DateTime ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└──────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+    ]
+}
