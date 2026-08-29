@@ -1,0 +1,15 @@
+require("conf.environments")
+require("conf.monitors")
+require("conf.autostart")
+require("conf.general")
+require("conf.decoration")
+require("conf.animations")
+require("conf.layouts")
+require("conf.misc")
+require("conf.input")
+require("conf.gestures")
+require("conf.binds")
+require("conf.rules")
+
+-- For Noctalia Color templates
+require("noctalia")
