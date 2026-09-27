@@ -2,12 +2,12 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
         "type": "auto",
-        "source": "~/.config/fastfetch/ascii/big_planet.txt",
+        "source": "~/.config/fastfetch/ascii/spiderman-logo.txt",
         // "source": "~/.config/fastfetch/images/giri.png",
         //"height": 15,
         //"width": 30,
         "padding": {
-            "top": 2,
+            "top": 1,
             "left": 4,
             "right": 8
         }
