@@ -93,8 +93,11 @@ hl.bind("XF86AudioMicMute",     hl.dsp.exec_cmd(ipc .. " mic-mute"), { locked = 
 -- Extras
 hl.bind("XF86Launch1", hl.dsp.exec_cmd("rog-control-center"), { locked = true })
 -- hl.bind("XF86Launch3", hl.dsp.exec_cmd())
+hl.bind("XF86Launch3", hl.dsp.dpms({ action = "disable", monitor = "DP-2" }),  { description = "Turn Off Monitor-2" })
+hl.bind("SHIFT + XF86Launch3", hl.dsp.dpms({ action = "enable", monitor = "DP-2" }),  { description = "Turn On Monitor-2" })
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(ipc .. " panel-toggle wallpaper"))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd(ipc .. " caffeine-toggle"))
+hl.bind(mainMod .. " + SHIFT + N", hl.dsp.exec_cmd(ipc .. " notification-dnd-toggle"))
 hl.bind(mainMod .. " + O", hl.dsp.window.pin({toggle}))
 
 -- Laptop multimedia keys for volume and LCD brightness

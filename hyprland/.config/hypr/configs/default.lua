@@ -1,0 +1,15 @@
+require("noctalia.environments")
+require("noctalia.monitors")
+require("noctalia.autostart")
+require("noctalia.general")
+require("noctalia.decoration")
+require("noctalia.animations")
+require("noctalia.layouts")
+require("noctalia.misc")
+require("noctalia.input")
+require("noctalia.gestures")
+require("noctalia.binds")
+require("noctalia.rules")
+
+-- For Noctalia Color templates
+require("noctalia").apply_theme()
