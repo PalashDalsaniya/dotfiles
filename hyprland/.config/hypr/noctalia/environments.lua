@@ -1,5 +1,5 @@
 -- force dgpu/igpu
-hl.env("AQ_DRM_DEVICES", "/dev/dri/amd-igpu:/dev/dri/card0:/dev/dri/card2:/dev/dri/card1")
+hl.env("AQ_DRM_DEVICES", "/dev/dri/nvidia-dgpu:/dev/dri/amd-igpu")
 
 -- Toolkit Backend Variables
 hl.env("GDK_BACKEND", "wayland,x11,*")
